@@ -2,14 +2,14 @@
 """
 Created on Mon Aug 10 08:37:18 2026
 
-@author: parit
+@author: Parithimal
 """
 
 # -*- coding: utf-8 -*-
 """
 CAPM Validation & Beta Analysis in Indian Equity Markets
 
-Author: Parit
+Author: Parithimal
 """
 
 # ============================================================
