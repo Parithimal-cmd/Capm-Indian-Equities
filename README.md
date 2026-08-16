@@ -78,3 +78,67 @@ The main regression outputs were alpha, beta, R-squared, and the p-value of
 beta.
 The complete regression results are available in
 `CAPM_Results.csv`.
+### Key Findings
+- M&M had the highest estimated beta (1.192), indicating the greatest
+  sensitivity to NIFTY 50 market movements among the selected stocks.
+- Sun Pharma had the lowest beta (0.576), indicating relatively lower
+  market sensitivity.
+- M&M also had the highest annualized volatility (28.71%), while ITC had
+  the lowest (20.32%).
+- Four of the eight stocks had beta values above 1: HDFC Bank, Larsen &
+  Toubro, M&M, and Reliance.
+- Beta was statistically significant for all eight stocks at conventional
+  significance levels.
+  ## CAPM Validation
+To examine the CAPM prediction that higher systematic risk should be
+associated with higher average returns, a cross-sectional analysis was
+conducted using the estimated beta and average daily return of the eight
+selected stocks.
+The beta-return correlation was approximately **0.115**, indicating a very
+weak positive relationship between beta and average return.
+A cross-sectional OLS regression was then estimated using average daily
+return as the dependent variable and beta as the explanatory variable.
+The regression produced:
+- **Beta coefficient:** 0.000219
+- **Beta p-value:** 0.787
+- **R²:** 0.0131
+The beta coefficient was not statistically significant, and the low R²
+indicates that beta explained very little of the variation in average
+returns across the selected stocks.
+Therefore, the sample provides **limited empirical support for the
+CAPM-predicted positive beta-return relationship**.
+## Visualizations
+The project includes four visualizations:
+1. **CAPM Beta Comparison** – compares the estimated beta of the selected
+   stocks and their sensitivity to NIFTY 50 market movements.
+2. **Annualized Stock Volatility** – compares the annualized volatility of
+   the selected stocks based on their daily returns.
+3. **Residuals vs Fitted Values** – provides a regression diagnostic for the
+   Reliance CAPM model.
+4. **Beta vs Average Return** – visualizes the cross-sectional relationship
+   between estimated beta and average daily return.
+   ## Limitations
+- The analysis is based on a relatively small sample of eight selected
+  Indian equities rather than the entire NSE.
+- The cross-sectional CAPM test is based on only eight observations, which
+  limits the statistical power of the analysis.
+- Historical average returns are used as a proxy for expected returns,
+  although CAPM is fundamentally a model of expected returns.
+- The analysis uses the NIFTY 50 as the market benchmark, which may not
+  capture all sources of systematic risk in the Indian equity market.
+- CAPM relies on simplifying assumptions about investor behavior, markets,
+  and risk that may not fully hold in real-world financial markets.
+  ## Conclusion
+This project examined the CAPM relationship using eight selected NSE-listed
+Indian equities and the NIFTY 50 as the market benchmark. The CAPM
+regressions showed that the stocks differed substantially in their
+sensitivity to market movements, with estimated beta values ranging from
+0.576 for Sun Pharma to 1.192 for M&M.
+The cross-sectional analysis, however, found only a weak positive
+relationship between beta and average return, with a correlation of
+approximately 0.115. The beta coefficient was not statistically significant
+(p = 0.787), and the regression had a low R² of 0.0131.
+Therefore, the selected sample provides limited empirical support for the
+positive beta-return relationship predicted by CAPM. The results should be
+interpreted in the context of the small sample size and the limitations of
+using historical average returns to represent expected returns.
