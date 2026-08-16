@@ -45,7 +45,7 @@ The regression results were used to estimate alpha, beta, R-squared, and the
 statistical significance of beta.
 ### 3. Volatility Analysis
 The standard deviation of daily stock returns was calculated to measure
-return volatility. Daily volatility was then annualized using 252 trading
+return volatility. Daily volatility was then calculated using 252 trading
 days.
 ### 4. Cross-Sectional CAPM Analysis
 After estimating the beta of each stock, a cross-sectional analysis was
@@ -87,8 +87,7 @@ The complete regression results are available in
   the lowest (20.32%).
 - Four of the eight stocks had beta values above 1: HDFC Bank, Larsen &
   Toubro, M&M, and Reliance.
-- Beta was statistically significant for all eight stocks at conventional
-  significance levels.
+- Beta was statistically significant for all eight stocks.
   ## CAPM Validation
 To examine the CAPM prediction that higher systematic risk should be
 associated with higher average returns, a cross-sectional analysis was
@@ -126,8 +125,6 @@ The project includes four visualizations:
   although CAPM is fundamentally a model of expected returns.
 - The analysis uses the NIFTY 50 as the market benchmark, which may not
   capture all sources of systematic risk in the Indian equity market.
-- CAPM relies on simplifying assumptions about investor behavior, markets,
-  and risk that may not fully hold in real-world financial markets.
   ## Conclusion
 This project examined the CAPM relationship using eight selected NSE-listed
 Indian equities and the NIFTY 50 as the market benchmark. The CAPM
